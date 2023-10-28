@@ -12,7 +12,8 @@
     <?php 
 
         $name = "Eduardo";
-        echo "$name";
+        $lastName = "Bordin";
+        echo "$name $lastName";
     ?>
     </h2>
 </body>
