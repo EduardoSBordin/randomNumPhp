@@ -10,8 +10,8 @@
 
     <form action="" method="post">
 
-        <input type="number" name="minNum" id="" placeholder="Type min." step="0.1">
-        <input type="number" name="maxNum" id="" placeholder="Type max." step="0.1">
+        <input type="number" name="minNum" id="" placeholder="Type min." step="0.1" required>
+        <input type="number" name="maxNum" id="" placeholder="Type max." step="0.1" required>
     
         <input type="submit" value="Send">
     </form>
@@ -23,7 +23,7 @@
 
         $resulRand = mt_rand($getMinNum,$getMaxNum) ?? 0;
 
-        echo $resulRand;
+        echo $resulRand ?? 0;
     ?>
     </h2>
 </body>
