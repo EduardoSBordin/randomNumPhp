@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Just For Test</title>
+    <title>Random Numbers - PHP</title>
 </head>
 <body>
     <h1>Here it's Ok!</h1>
